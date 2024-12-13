@@ -1,4 +1,4 @@
-""" Purge - Email unsubscriber
+""" Plunger - Email unsubscriber
 
 Adapted from "Automate Your Life Using Python! (Email Unsubscribe with Python Tutorial)"
 by Tech With Tim https://www.youtube.com/watch?v=rBEQL2tC2xY
@@ -18,7 +18,6 @@ import os
 import requests
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
-from icecream import ic
 from tqdm import tqdm
 load_dotenv()
 
